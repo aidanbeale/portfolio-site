@@ -1,0 +1,29 @@
+.profile-info-container {
+  margin-top: 25px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.profile-name {
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 0 !important;
+}
+
+.socials-list {
+  text-align: center;
+}
+
+.social-logo {
+  padding: 10px;
+  color: rgb(224, 224, 224);
+  width: 30px !important;
+  height: 30px !important;
+}
