@@ -1,0 +1,43 @@
+.feature-header {
+  height: 15vh;
+  background: linear-gradient(270deg, #ff9160, #c42776, #e63737);
+  background-size: 600% 600%;
+
+  -webkit-animation: HeaderAnimation 30s ease infinite;
+  -moz-animation: HeaderAnimation 30s ease infinite;
+  animation: HeaderAnimation 30s ease infinite;
+}
+/* I did't make this. Animation generated from https://www.gradient-animator.com/ */
+@-webkit-keyframes HeaderAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes HeaderAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes HeaderAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
