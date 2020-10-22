@@ -18,3 +18,12 @@
   text-decoration: none;
   margin: auto;
 }
+
+li {
+  transition: background 250ms ease-in-out, transform 150ms ease;
+}
+
+li:hover,
+li:focus {
+  background: hsla(0, 0%, 100%, 0.1) !important;
+}
