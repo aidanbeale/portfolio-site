@@ -9,7 +9,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar-container">
       <ProfileInfo />
-      <Navlinks links={["About", "Projects"]} />
+      <Navlinks links={["About", "Projects", "Contact"]} />
     </div>
   );
 };

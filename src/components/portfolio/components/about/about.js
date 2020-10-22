@@ -12,8 +12,8 @@ const About = () => {
         developments in the space industry.
       </p>
       <p>
-        I'm interested in full-stack development, with experience working on
-        frontend projects in HTML/CSS, JavaScript and React, as well as backend
+        I'm interested in full-stack development, with frontend experience
+        working in HTML/CSS, JavaScript and React, as well as backend
         development in Node.js on my personal projects. I also have experience
         using AWS to deploy projects through CodePipeline and Elastic Beanstalk.
       </p>
