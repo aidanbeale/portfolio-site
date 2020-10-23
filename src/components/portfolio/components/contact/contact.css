@@ -21,7 +21,7 @@ textarea {
 }
 .contact-textarea {
   width: 95% !important;
-  height: 64px;
+  height: 90px;
 }
 .email-input {
   width: 95% !important;
@@ -30,4 +30,11 @@ textarea {
 .name-input {
   width: 95% !important;
   height: 16px;
+}
+.contact-submit {
+  background: #e43030;
+}
+.contact-submit:hover,
+.contact-submit:focus {
+  background: #da1111;
 }

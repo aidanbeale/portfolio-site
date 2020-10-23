@@ -6,7 +6,7 @@ import "./projects.css";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
+    <div id="projects" className="projects-container">
       <h2>Projects</h2>
       <div className="projects-list">
         <Project

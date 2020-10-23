@@ -4,7 +4,7 @@ import "./about.css";
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div id="about" className="about-container">
       <h2>About</h2>
       <p>
         I'm a software developer from Melbourne, Australia, who enjoys

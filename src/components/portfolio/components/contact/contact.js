@@ -4,7 +4,7 @@ import "./contact.css";
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <h2>Contact</h2>
       <form action="https://formspree.io/f/mzbkrjya" method="POST">
         <input
@@ -25,7 +25,9 @@ const Contact = () => {
           placeholder="Your message"
         ></textarea>
 
-        <button type="submit">Send</button>
+        <button className="contact-submit" type="submit">
+          Send
+        </button>
       </form>
     </div>
   );
