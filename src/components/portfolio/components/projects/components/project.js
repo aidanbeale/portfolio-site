@@ -14,7 +14,7 @@ const Project = ({ title, imageURL, description, github, website }) => {
         <p>{description}</p>
         <div className="project-button-list">
           {website ? (
-            <button onClick={() => (window.location = website)}>
+            <button onClick={() => window.open(website)}>
               <FontAwesomeIcon
                 icon={["fas", "external-link-alt"]}
                 className="project-button-icon"
@@ -25,7 +25,7 @@ const Project = ({ title, imageURL, description, github, website }) => {
           {github ? (
             <button
               className="button-github"
-              onClick={() => (window.location = github)}
+              onClick={() => window.open(github)}
             >
               <FontAwesomeIcon
                 icon={["fab", "github"]}
