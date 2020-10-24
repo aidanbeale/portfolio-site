@@ -1,6 +1,8 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import "./project.css";
+
 const Project = ({ title, imageURL, description, github, website }) => {
   return (
     <div className="project">
