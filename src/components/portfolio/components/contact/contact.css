@@ -1,5 +1,5 @@
 .contact-container {
-  padding: 1em 2em 1em 2em;
+  padding: 0em 2em 1em 2em;
 }
 .contact-container p {
   margin-bottom: 0px !important;
@@ -37,4 +37,9 @@ textarea {
 .contact-submit:hover,
 .contact-submit:focus {
   background: #da1111;
+}
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 0em 1em 2em 1em;
+  }
 }

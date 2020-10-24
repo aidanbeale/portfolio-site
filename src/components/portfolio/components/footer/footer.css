@@ -1,7 +1,12 @@
 .footer-container {
   padding: 1em 2em 1em 2em;
   background: #1d1d1d;
-  /* position: fixed;
-  bottom: 0;
-  width: 100%; */
+}
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 1em 1em 1em 1em;
+  }
+}
+.footer-container p {
+  color: #a8a8a8;
 }

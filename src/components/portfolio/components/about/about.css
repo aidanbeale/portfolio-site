@@ -1,6 +1,4 @@
 .about-container {
-  /* padding-left: 30px;
-  padding-right: 20px; */
   padding: 1em 2em 1em 2em;
 }
 h2 {
@@ -8,4 +6,10 @@ h2 {
 }
 p {
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .about-container {
+    padding: 4em 1em 1em 1em;
+  }
 }

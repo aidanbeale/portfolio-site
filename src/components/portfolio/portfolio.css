@@ -3,5 +3,10 @@
   margin-left: calc(20vw + 50px);
   height: 100%;
   width: 100%;
-  /* height: fit-content; */
+}
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    margin-left: 0px !important;
+  }
 }
