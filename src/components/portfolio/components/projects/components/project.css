@@ -64,3 +64,11 @@ button:focus {
 button:active {
   transform: scale(0.99);
 }
+
+@media (min-width: 769px) and (max-width: 1000px) {
+  button {
+    width: 120px;
+    height: 35px;
+    font-size: 0.9rem;
+  }
+}
