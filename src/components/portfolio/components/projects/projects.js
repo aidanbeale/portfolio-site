@@ -15,7 +15,7 @@ const Projects = () => {
           description={
             "Helping people find nearby cities to visit. Created using MERN stack with Auth0 user authentication. Hosted on AWS."
           }
-          github={"https://github.com/aidanbeale/VisitHop"}
+          github={""}
           website={"https://visithop.com"}
         />
         <Project
